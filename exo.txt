@@ -1,4 +1,4 @@
-Algorithme lolo
+Algorithme produit_psitif_négatif
 Variable
 a , b: entier
 Debut
