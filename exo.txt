@@ -1,0 +1,17 @@
+Algorithme lolo
+Variable
+a , b: entier
+Debut
+	afficher ("saisir deux nombres");
+	saisir (a);
+	saisir (b);
+	Si (a<0 et  b<0) ou  (a>0 et b>0) alors
+		afficher ("leur produit est positif");
+    	Sinon si(a<0 et b>0) ou (b<0 et a>0) alors
+		afficher ("leur produit est négatif");
+	    sinon
+	afficher ("nul");
+        finsi
+      finsi
+
+Fin

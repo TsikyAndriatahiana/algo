@@ -1,0 +1,36 @@
+Algorithme équation
+variable A,B,C,delta,x1,x2,m,n,d:réel
+Début
+Afficherln ("saisissez les coefficients");
+ecrire ("A=");
+Lire (A);
+Afficher ("B=");
+Lire (B);
+Afficher ("C=");
+Lire(C);
+Afficherln ("d'où ",A,"x^2 + ",B,"x + ",C," = 0");
+si (A=0) alors
+    afficher ("ce n'est pas une équation de second degré'");
+sinon 
+   delta<-(B*B)-(4*A*C);
+     si (delta>0)alors
+     x1<- -B-racine(delta) /(2*A);
+     x2<- -B+sqrt(delta)/2*A;
+     Afficherln ("les solutions \n x1= ",x1);
+     Afficher ("x2=",x2);
+     sinon si (delta =0)alors
+     x1<- -B/2*A;
+     Afficher ("les solutions x1=",x1);
+     sinon 
+     d<-sqrt(-delta);
+     m<- -B/2*A;
+     n<- d/2*A ;
+    Afficherln ("x1= ",m,"+",n,"i");
+     Afficher("x2=",m,"-",n,"i");
+     
+              finsi  
+        
+   finsi
+  finsi
+Fin
+    

@@ -1,0 +1,13 @@
+Algorithme exo_3
+variable A,B,C:entier
+Début
+afficher ("saissez deux valeurs\nA:");
+saisir (A);
+afficher ("B:");
+saisir (B);
+C=A;
+A=B;
+B=C;
+afficher ("leur valeur ce sont échangés donc \nA:",A,"\nB:",B,);
+	
+Fin

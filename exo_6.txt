@@ -1,0 +1,14 @@
+Algorithme exo_5
+variable a,b,c,d,s,m:réel
+Début
+afficher ("saisissez deux notes\n");
+saisir (a);
+saisir (b);
+afficherln ("saisissez leur coefficient");
+saisir (c);
+saisir (d);
+s=(a*c)+(b*d);
+m=s/(c+d);
+afficher ("la moyenne est",m);
+	
+Fin

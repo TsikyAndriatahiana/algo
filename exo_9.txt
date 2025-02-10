@@ -1,0 +1,14 @@
+Algorithme compter
+Variable a,s,i:entier ;
+Debut 
+ecrire("nombre 1 jusqu'à a avec a=");
+	lire(a);
+	i=1;
+	pour i de 2 à a faire
+		    s=i%2
+		    si (s=0)alors
+		    		       ecrireln (i);
+		    finsi
+	finpour
+	
+Fin

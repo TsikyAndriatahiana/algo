@@ -1,0 +1,11 @@
+Algorithme exo_8
+variable a,i:entier
+Début
+    i<-1;
+    afficher ("saisir un nombre");
+    saisir (a);
+        tantque (i<=a) faire
+        afficherln (i);
+        i<-1+i;
+fintantque
+Fin

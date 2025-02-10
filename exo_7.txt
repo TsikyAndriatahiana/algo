@@ -1,0 +1,19 @@
+Algorithme exo_7
+variable a,b,c,m:entier
+Début
+    afficherln ("saisissez trois valeurs");
+    saisir (a);
+    saisir (b);
+    saisir (c);
+    si (a<c && b<c) alors
+        m<-c;
+        afficher ("la valeur maximum est ",m);
+        sinon si (a<b && c<b) alors
+            m<-b;
+            afficher ("la valeur maximum est",m);
+            sinon 
+                m<-a;
+                afficher ("la valeur maximum est ",m);
+        finsi         
+      finsi
+  Fin

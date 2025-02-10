@@ -1,0 +1,12 @@
+Algorithme positif_négatif
+variable a,s,i:entier
+Début
+afficher (" saisissez un nombre");
+Saisir (a);
+si (a>0) alors
+    afficher ("le nombre est positif");
+    sinon 
+    afficher ("le nombre est négatif");
+finsi
+	
+Fin

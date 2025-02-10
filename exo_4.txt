@@ -1,0 +1,12 @@
+Algorithme exo_4
+variable a,b,m,s:entier
+Début
+afficher ("entrez deux notes\n");
+saisir (a);
+saisir (b);
+s=a+b;
+afficherln ("la somme des deux notes est ",s);
+m=s/2;
+afficher ("la moyenne est",m);
+	
+Fin
