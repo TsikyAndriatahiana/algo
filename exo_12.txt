@@ -1,0 +1,15 @@
+Algorithme exo_12
+variable a,s,i:entier
+Début
+afficher ("saisir un nombre");
+saisir (a);
+pour i de 1 à a-1 faire
+    afficher (i,"+");
+finpour
+   afficher (a,"=");
+s=0;
+pour i de 1 à a faire
+    s=s+i;
+finpour
+	afficher (s);
+Fin

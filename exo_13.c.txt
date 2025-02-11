@@ -1,0 +1,17 @@
+
+Algorithme factorielle
+   Variable a,f,i:entier
+Debut
+    Afficher ("saisir un nombre");
+    saisir(a);
+    f=1;
+    Pour i de 1 à a-1 faire
+        Afficher (i,"*");
+   finpour
+   Afficher (a,"=");
+Pour I de 1 à a faire
+      f=f*i;
+   Finpour
+       Afficher (f);
+   
+Fin

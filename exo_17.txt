@@ -1,0 +1,20 @@
+Algorithme exo17
+variable a,i:entier
+                b,c,e,j:reel
+Début
+	afficher ("saisir un nombre");
+	saisir (a);
+	pour i de 1 à a-1 faire
+		    afficher ("1/",i,"! + ");
+	finpour
+	afficher ("1/",a,"!");
+	b=1;
+	c=0;
+	pour i de 1 à a faire
+		    b<-b*(1.0/i);
+		    c<-c+b;
+
+	finpour
+	e<-c
+	afficher ("la somme est ",e)
+Fin

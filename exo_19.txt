@@ -1,0 +1,22 @@
+Algorithme nombre_premier
+variable a,e,b,d: entier
+Début
+	afficherln ("deux entier");
+	saisir (a);
+	saisir(b);
+	d=0;
+	tantque (d<=a && d<=b) faire
+        d=d+1;
+        Si (a%d=0 && b%d=0) alors
+           e<-d;
+   Finsi
+fintantque
+    Afficherln ("le PGCD est",e);
+  Si(e==1) alors
+        Afficher ("Les deux nombres sont premiers entre eux");
+   Sinon
+         Afficher ("Les duex nombres be don't pas premiers entre eux");
+   
+  Finsi	
+	
+Fin

@@ -1,0 +1,18 @@
+Algorithme exo16
+variable a,b,i,d,e:entier
+Début
+	afficher ("saisir un nombre ");
+	Lire (a);
+	Pour i de 1 à a-1 faire
+	Afficher (i,"! +");
+	finpour 
+	afficherln (a,"!");
+	d=1
+	b=0
+	pour i de 1 à a faire
+	d<-d*i
+	b<-b+d	    
+	finpour
+e<-b
+	afficher ("la somme factorielle est ",e);
+Fin

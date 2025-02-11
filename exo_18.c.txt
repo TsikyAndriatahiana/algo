@@ -1,0 +1,18 @@
+Algorithme exo18
+variable a,b,e,d: entier
+Début
+	afficherln ("deux entier");
+	saisir (a);
+	saisir(b);
+	d=0;
+	tantque (d<=a  et d<=b) faire
+    d<-d+1;
+         Si (a%d=0  et  b%d=0) alors 
+               Afficher ("les diviseurs communs don't");
+               e<-d;
+           Finsi
+  	fintantque
+                Afficher ("le PGCD est",e);
+	
+	
+Fin

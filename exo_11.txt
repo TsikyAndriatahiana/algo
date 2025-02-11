@@ -1,0 +1,14 @@
+Algorithme exo_11
+variable a,b:entier
+Début
+afficherln ("saisissez un nombre");
+saisir (a);
+b=1;
+tantque (a>0) faire
+    b=b*a;
+    a=a-1;
+    
+fintantque
+
+ afficher ("la factorielle est ",b);
+Fin

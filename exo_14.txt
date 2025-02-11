@@ -1,0 +1,16 @@
+﻿Algorithme exo_14
+variable b:réel
+               a, i:entier
+Début
+afficher ("saisissez a=");
+lire (a);
+pour i de 1 à a-1 faire
+    afficher ("1/",i, "+");
+finpour
+afficherln ("1/",a);
+b=0
+pour i de 1 à a faire
+    b<-b+1,0/i;
+finpour 
+afficher("la somme est ",b)
+Fin

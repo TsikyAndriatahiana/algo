@@ -1,0 +1,19 @@
+
+Algorithme puissance
+variable a,b,c,i:entier
+Début
+	afficherln("saisissez un nombre");
+	lire(a);
+	b=10
+	c=0
+	pour i de 0 à a-1 faire
+afficher(b,"^",i,"+");
+	finpour
+	afficherln (b,"^",a);
+	pour i de 0 à a faire
+		    c=b^i+c
+	finpour
+	afficher ("la somme des puissances est ",c);
+
+
+Fin
